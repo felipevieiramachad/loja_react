@@ -1,0 +1,14 @@
+.header { background: var(--cor-primaria-escura); }
+.conteudo {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0.9rem 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo { font-family: var(--fonte-titulo); font-size: 1.3rem; color: #f2e9d8; text-decoration: none; }
+.nav { display: flex; gap: 2rem; }
+.link { color: #dfe8e3; text-decoration: none; font-weight: 500; padding: 0.25rem 0; }
+.link:hover { color: #fff; }
+.ativo { color: #fff; border-bottom: 2px solid var(--cor-acento); }

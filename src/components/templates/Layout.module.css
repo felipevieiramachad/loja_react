@@ -1,0 +1,4 @@
+.layout { min-height: 100vh; display: flex; flex-direction: column; }
+.principal { flex: 1; width: 100%; max-width: 1100px; margin: 0 auto; padding: 2rem 1.25rem 3rem; }
+.footer { background: #e8efeb; text-align: center; padding: 1rem; font-size: 0.85rem; color: var(--cor-texto-suave); }
+.footer p { margin: 0 auto; }

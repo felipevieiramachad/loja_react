@@ -1,0 +1,37 @@
+:root {
+  --cor-fundo: #f4f6f4;
+  --cor-texto: #16231d;
+  --cor-texto-suave: #4b5a53;
+  --cor-primaria: #1f5c4c;
+  --cor-primaria-escura: #163f34;
+  --cor-acento: #d9a441;
+  --cor-borda: #dde3df;
+  --cor-erro: #b23a3a;
+  --cor-erro-fundo: #fbeaea;
+  --fonte-titulo: "Fraunces", "Iowan Old Style", serif;
+  --fonte-corpo: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--cor-fundo);
+  color: var(--cor-texto);
+  font-family: var(--fonte-corpo);
+  line-height: 1.55;
+}
+
+h1, h2, h3 { font-family: var(--fonte-titulo); color: var(--cor-primaria-escura); line-height: 1.2; }
+h1 { font-size: clamp(1.75rem, 1.4rem + 1.5vw, 2.25rem); margin: 0 0 1rem; }
+h3 { font-family: var(--fonte-corpo); font-weight: 600; }
+a { color: var(--cor-primaria); }
+
+a:focus-visible, button:focus-visible, input:focus-visible {
+  outline: 3px solid var(--cor-acento);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition-duration: 0.001ms !important; }
+}

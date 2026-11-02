@@ -1,0 +1,16 @@
+{
+  "produtos": [
+    { "id": "1", "nome": "Tênis Runner", "descricao": "Tênis leve para corrida, com amortecimento e solado antiderrapante.", "preco": 299.9, "categoria": "Calçados", "imagem": "https://picsum.photos/seed/tenis-runner/600/400", "estoque": 5 },
+    { "id": "2", "nome": "Bota de Trilha", "descricao": "Bota resistente à água para trilhas e caminhadas longas.", "preco": 389.9, "categoria": "Calçados", "imagem": "https://picsum.photos/seed/bota-trilha/600/400", "estoque": 3 },
+    { "id": "3", "nome": "Sandália Conforto", "descricao": "Sandália com palmilha anatômica para uso diário.", "preco": 119.9, "categoria": "Calçados", "imagem": "https://picsum.photos/seed/sandalia/600/400", "estoque": 8 },
+    { "id": "4", "nome": "Chinelo Slide", "descricao": "Chinelo slide macio, ideal para o pós-treino.", "preco": 69.9, "categoria": "Calçados", "imagem": "https://picsum.photos/seed/chinelo/600/400", "estoque": 12 },
+    { "id": "5", "nome": "Fone Bluetooth", "descricao": "Fone sem fio com cancelamento de ruído e 30 horas de bateria.", "preco": 189.9, "categoria": "Eletrônicos", "imagem": "https://picsum.photos/seed/fone/600/400", "estoque": 6 },
+    { "id": "6", "nome": "Mouse Sem Fio", "descricao": "Mouse ergonômico com conexão 2.4 GHz e sensor preciso.", "preco": 79.9, "categoria": "Eletrônicos", "imagem": "https://picsum.photos/seed/mouse/600/400", "estoque": 10 },
+    { "id": "7", "nome": "Teclado Mecânico", "descricao": "Teclado mecânico compacto com switches silenciosos.", "preco": 259.9, "categoria": "Eletrônicos", "imagem": "https://picsum.photos/seed/teclado/600/400", "estoque": 4 },
+    { "id": "8", "nome": "Carregador Portátil", "descricao": "Power bank de 10.000 mAh com duas saídas USB.", "preco": 99.9, "categoria": "Eletrônicos", "imagem": "https://picsum.photos/seed/powerbank/600/400", "estoque": 2 },
+    { "id": "9", "nome": "Mochila Urbana", "descricao": "Mochila com compartimento para notebook de até 15 polegadas.", "preco": 159.9, "categoria": "Acessórios", "imagem": "https://picsum.photos/seed/mochila/600/400", "estoque": 7 },
+    { "id": "10", "nome": "Boné Aba Curva", "descricao": "Boné de algodão com regulagem traseira.", "preco": 49.9, "categoria": "Acessórios", "imagem": "https://picsum.photos/seed/bone/600/400", "estoque": 15 },
+    { "id": "11", "nome": "Garrafa Térmica", "descricao": "Garrafa de aço inox que mantém a temperatura por 12 horas.", "preco": 89.9, "categoria": "Acessórios", "imagem": "https://picsum.photos/seed/garrafa/600/400", "estoque": 9 },
+    { "id": "12", "nome": "Relógio Digital", "descricao": "Relógio resistente à água com cronômetro e alarme.", "preco": 139.9, "categoria": "Acessórios", "imagem": "https://picsum.photos/seed/relogio/600/400", "estoque": 5 }
+  ]
+}

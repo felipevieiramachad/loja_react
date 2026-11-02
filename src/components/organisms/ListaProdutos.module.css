@@ -1,0 +1,6 @@
+/* Mobile-first: 1 coluna no celular, 2 no tablet, 4 no desktop (RF15) */
+.grade { display: grid; grid-template-columns: 1fr; gap: 1.25rem; margin-top: 1.5rem; }
+.erro { color: var(--cor-erro); background: var(--cor-erro-fundo); padding: 1rem; border-radius: 8px; }
+
+@media (min-width: 640px) { .grade { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1024px) { .grade { grid-template-columns: repeat(4, 1fr); } }

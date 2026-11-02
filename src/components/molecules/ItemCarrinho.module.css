@@ -1,0 +1,22 @@
+.item {
+  display: grid;
+  grid-template-columns: 72px 1fr;
+  gap: 0.75rem 1rem;
+  align-items: center;
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid var(--cor-borda);
+  border-radius: 10px;
+}
+.imagem { width: 72px; height: 72px; object-fit: cover; border-radius: 8px; }
+.nome { margin: 0 0 0.25rem; font-size: 1rem; }
+.unitario { font-size: 0.9rem; color: var(--cor-texto-suave); }
+.quantidade { display: flex; align-items: center; gap: 0.5rem; grid-column: 1 / -1; }
+.valor { min-width: 2rem; text-align: center; font-weight: 600; }
+.subtotal { display: flex; flex-direction: column; font-size: 0.9rem; grid-column: 1 / -1; }
+.subtotal strong { color: var(--cor-primaria-escura); font-size: 1.1rem; }
+
+@media (min-width: 768px) {
+  .item { grid-template-columns: 72px 1fr auto auto auto; }
+  .quantidade, .subtotal { grid-column: auto; }
+}

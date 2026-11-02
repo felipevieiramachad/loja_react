@@ -1,0 +1,15 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 1px solid var(--cor-borda);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.imagem { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; background: var(--cor-borda); }
+.corpo { display: flex; flex-direction: column; gap: 0.5rem; padding: 1rem; flex: 1; }
+.categoria { font-size: 0.8rem; color: var(--cor-texto-suave); }
+.nome { margin: 0; font-size: 1.05rem; }
+.nome a { color: var(--cor-texto); text-decoration: none; }
+.nome a:hover { text-decoration: underline; }
+.preco { font-size: 1.2rem; color: var(--cor-primaria-escura); margin-bottom: auto; }

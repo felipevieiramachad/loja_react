@@ -1,0 +1,9 @@
+.wrapper { display: flex; flex-direction: column; gap: 0.35rem; max-width: 420px; }
+.rotulo { font-size: 0.9rem; font-weight: 600; }
+.campo {
+  padding: 0.7rem 0.85rem;
+  border: 1.5px solid var(--cor-borda);
+  border-radius: 8px;
+  font: 1rem var(--fonte-corpo);
+  background: #fff;
+}
