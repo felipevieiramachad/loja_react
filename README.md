@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Nordeva — Loja Virtual em React
 
 Loja virtual (SPA) com catálogo vindo de uma API simulada, busca, detalhe do
@@ -9,11 +9,6 @@ produto, carrinho compartilhado por Context API e checkout com pagamento
 
 Permite ao cliente navegar pelo catálogo, encontrar produtos, montar o próprio
 carrinho e finalizar a compra, com respostas instantâneas na tela.
-
-## Links
-
-- Deploy: **(informar o link da Netlify/Vercel aqui)**
-- Board Kanban (Trello): **(informar o link do board aqui)**
 
 ## Tecnologias e técnicas
 
