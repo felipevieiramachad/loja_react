@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Nordeva — Loja Virtual em React
 
 Loja virtual (SPA) com catálogo vindo de uma API simulada, busca, detalhe do
@@ -100,3 +101,6 @@ carrinho (`adicionarProduto`, `alterarQuantidadeItem`, totais) e
 Tema claro/escuro, busca na URL (`useSearchParams`), filtro por categoria e
 ordenação por preço, carrinho persistente no `localStorage`, `useDebounce` e
 testes de componente com React Testing Library.
+=======
+# loja_react
+>>>>>>> f371dd0070418d31df0d043ff800c4f148aebc9c
